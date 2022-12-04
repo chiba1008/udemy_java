@@ -11,7 +11,7 @@ public class ClassSample04 {
             fr = new FileReader("test/File.txt");
             int c;
             while ((c = fr.read()) != -1) {
-                System.out.println((char) c);
+                System.out.print((char) c);
             }
         } catch (FileNotFoundException e1) {
             System.out.println("ファイルが見つかりません。");
