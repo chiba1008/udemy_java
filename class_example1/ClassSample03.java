@@ -1,4 +1,4 @@
-package class_example;
+package class_example1;
 
 import java.io.FileWriter;
 import java.io.IOException;
